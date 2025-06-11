@@ -1,4 +1,4 @@
 # ethereumdeveloperpacker
 Projeto Boletim: Done!
 
-Projeto Palindromo: Em andamento...
+Projeto Palindromo: Done!
