@@ -1,4 +1,3 @@
 # ethereumdeveloperpacker
-Projeto Boletim: Done!
 
-Projeto Palindromo: Done!
+Repositório utilizado para armazenar os códigos dos contratos desemvolvidos no curso.
