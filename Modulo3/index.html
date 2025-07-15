@@ -1,0 +1,20 @@
+<!—-INDEX.HTML-->
+    <!DOCTYPE html>
+    <html lang="pt-BR">
+
+    <head>
+        <meta charset="UTF-8" />
+        <title>DApp Cliente + Cofre</title>
+        <script src="https://cdn.jsdelivr.net/npm/ethers@6.7.0/dist/ethers.umd.min.js"></script>
+        <script defer src="app.js"></script>
+    </head>
+
+    <body>
+        <h2>Cofre Descentralizado</h2>
+        <label>Valor (ETH):</label>
+        <input id="valor" type="number" placeholder="0.01" step="0.01" />
+        <button onclick="enviarDeposito()">Depositar</button>
+        <button onclick="verSaldo()">Ver Saldo</button>
+        <button onclick="requisitarSaque()">Sacar</button>
+        <p id="resultado"></p>
+    </body>
