@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Modulo3/Trabalho Final/SimpleDex.sol": "Simple"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Modulo3/Trabalho Final/SimpleDex.sol": {
+			"keccak256": "0x1c160eb36bfe35b83eff17c87f6d8e9dfe70d4f9c945bbd4ef57560d32c73c49",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://cca0e55396fe73840f0a8ade1ff4150da5c13eaaf9d0c673a3891066b78184fb",
+				"dweb:/ipfs/QmXgA3eteJjGZVXcCwWCJwKQMJ93ysMaRdJSEw5UkU4Ppa"
+			]
+		}
+	},
+	"version": 1
+}
