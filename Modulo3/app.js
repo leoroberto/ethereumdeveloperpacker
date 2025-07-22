@@ -1,7 +1,94 @@
 let signer;
 let cliente;
-const clienteAddress = "0xdA07Bf97094352a737a68d82a6B7Dc1bB98752E7";
-const clienteAbi =/**/; //cole o ABI aqui
+const clienteAddress = "0xF0890FD8C57Fd01fA7eCC403DB150C1e89Cf72E9";
+const clienteAbi =[
+	{
+		"inputs": [
+			{
+				"internalType": "address",
+				"name": "_cofre",
+				"type": "address"
+			}
+		],
+		"stateMutability": "nonpayable",
+		"type": "constructor"
+	},
+	{
+		"anonymous": false,
+		"inputs": [
+			{
+				"indexed": false,
+				"internalType": "string",
+				"name": "acao",
+				"type": "string"
+			},
+			{
+				"indexed": false,
+				"internalType": "address",
+				"name": "usuario",
+				"type": "address"
+			},
+			{
+				"indexed": false,
+				"internalType": "uint256",
+				"name": "valor",
+				"type": "uint256"
+			}
+		],
+		"name": "Interacao",
+		"type": "event"
+	},
+	{
+		"inputs": [],
+		"name": "cofreEndereco",
+		"outputs": [
+			{
+				"internalType": "address",
+				"name": "",
+				"type": "address"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"name": "enviarDeposito",
+		"outputs": [],
+		"stateMutability": "payable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "valor",
+				"type": "uint256"
+			}
+		],
+		"name": "requisitarSaque",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"name": "verMeuSaldo",
+		"outputs": [
+			{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"stateMutability": "payable",
+		"type": "receive"
+	}
+]; //cole o ABI aqui
 window.onload = async () => {
     if (window.ethereum) {
         provider = new ethers.BrowserProvider(window.ethereum);
